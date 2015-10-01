@@ -25,6 +25,8 @@ class MuttSidebar < Formula
     end
   end
 
+  conflicts_with 'mutt', because: 'mutt-sidebar is mutt, but with some patches'
+
   unless Tab.for_name("signing-party").with? "rename-pgpring"
     conflicts_with "signing-party",
       :because => "mutt installs a private copy of pgpring"

@@ -20,6 +20,7 @@ require "etc"
 # - @ffleming
 
 class NethackNao < Formula
+  desc "Single-player roguelike video game"
   homepage 'http://www.nethack.org/index.html'
   url 'https://downloads.sourceforge.net/project/nethack/nethack/3.4.3/nethack-343-src.tgz'
   version '3.4.3-nao'
